@@ -1,6 +1,5 @@
 # Skin-Lesion-Classification
 
-The project aims to :
-- Use deep learning techniques to classify lesion samples from a benchmark datasets in an accurate manner.
-- Provide strong insight on the statistical comparison of various pre trained neural networks which are used for transfer learning and image processing.
-- Perform an in-depth analysis of how each pre trained model performs. The models’ performance is evaluated based on evaluation metrics like precision, recall, F1 score etc. 
+- This project aims to use the benchmark dataset Ham10000 which consists of skin lesion images to conduct a statistical analysis under conditions where the dataset contains corrupt/noisy images and build models that obtains accurate results of image classification.
+- Using noisy images in the implementation of Skin Lesion classification is important because it helps to improve the model’s robustness and generalization performance. In the real world, images of skin lesions may contain various types of noise, such as blur, distortions, artifacts, and other types of interference.
+- By training the classification model on noisy images, we can make it more resis- tant to these types of noise and better able to generalize to unseen data. In this project, pre-trained models such as ResNet50, VGG16, DenseNet121, VGG19 and ResNet152 are used as classifiers on the benchmark HAM10000 dataset and are evaluated through various performance metrics. The models obtained the accuracies .87, .88, .89, .84 and .90 accordingly.
