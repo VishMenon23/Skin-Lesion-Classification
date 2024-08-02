@@ -1,5 +1,26 @@
-# Skin-Lesion-Classification
+# Image-Classification-Using-Vision-Transformers
 
-- This project aims to use the benchmark dataset Ham10000 which consists of skin lesion images to conduct a statistical analysis under conditions where the dataset contains corrupt/noisy images and build models that obtains accurate results of image classification.
-- Using noisy images in the implementation of Skin Lesion classification is important because it helps to improve the model’s robustness and generalization performance. In the real world, images of skin lesions may contain various types of noise, such as blur, distortions, artifacts, and other types of interference.
-- By training the classification model on noisy images, we can make it more resis- tant to these types of noise and better able to generalize to unseen data. In this project, pre-trained models such as ResNet50, VGG16, DenseNet121, VGG19 and ResNet152 are used as classifiers on the benchmark HAM10000 dataset and are evaluated through various performance metrics. The models obtained the accuracies .87, .88, .89, .84 and .90 accordingly.
+Academic Project where Image Classification has been explored using CNN based techniques and Tranformer Models.
+
+At the End Results are compared.
+
+Details can be found in the report.
+
+## Dataset Used
+
+Ham10000 dataset - [Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T)
+
+## CNN Models Explored
+
+1. ResNet50
+2. VGG16
+3. DenseNet121
+4. VGG19
+5. ResNet152
+
+## Transformer Models Explored
+
+1. Vision Transformer (ViT)
+2. Convolutional Vision Transformer (CvT)
+3. BERT Pre-Training of Image Transformers (BEiT)
+4. Hierarchical Vision Transformer using Shifted Windows (Swin Transformer)
